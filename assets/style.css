@@ -1,0 +1,54 @@
+html {
+    background: linear-gradient(#4b536e, #FFFFFF);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+body {
+
+ background: linear-gradient(#4b536e, #FFFFFF) no-repeat;
+    font-family: 'Montserrat', 'sans-serif', 'Mansalva', cursive;
+}
+
+h2, footer {
+    font-family: 'Mansalva';
+}
+
+button {
+  border-radius: 5px;
+}
+
+.itens-comprados {
+text-decoration: line-through;
+}
+
+.borda-lista {
+    border-bottom: dotted 2px blue;
+}
+
+input:disabled {
+    background: none;
+    color: black;
+}
+
+input {
+    border-radius: 10px;
+    background: none;
+    color: black;
+}
+#imgif {
+    margin-top: 16px;
+    border-radius: 109px;
+    margin-left: 40%;
+    height: 168px;
+}
+.column.is-offset-one-fifth, .column.is-offset-one-fifth-tablet{
+    margin-top: -51px;
+}
+    @media (max-width: 800px){
+  #imgif {
+        margin-top: 16px;
+        border-radius: 109px;
+     
+    }   
+}
