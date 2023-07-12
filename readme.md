@@ -9,3 +9,12 @@
 <li>Manipulação de elementos no Dom.</li>
 <li>Verificaçãode valores no JavaScript.</li>
 </ul>
+
+<br>
+<br>
+
+![preview](assets/img/preview1.png)
+<br>
+<br>
+
+![preview](assets/img/preview2.png)

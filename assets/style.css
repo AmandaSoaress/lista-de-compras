@@ -1,17 +1,17 @@
 html {
-    background: linear-gradient(#4b536e, #FFFFFF);
-    background-repeat: no-repeat;
-    height: 100%;
+  background: linear-gradient(#4b536e, #ffffff);
+  background-repeat: no-repeat;
+  height: 100%;
 }
 
 body {
-
- background: linear-gradient(#4b536e, #FFFFFF) no-repeat;
-    font-family: 'Montserrat', 'sans-serif', 'Mansalva', cursive;
+  background: linear-gradient(#4b536e, #ffffff) no-repeat;
+  font-family: 'Montserrat', 'sans-serif', 'Mansalva', cursive;
 }
 
-h2, footer {
-    font-family: 'Mansalva';
+h2,
+footer {
+  font-family: 'Mansalva';
 }
 
 button {
@@ -19,35 +19,45 @@ button {
 }
 
 .itens-comprados {
-text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 .borda-lista {
-    border-bottom: dotted 2px blue;
+  border-bottom: dotted 2px blue;
 }
 
 input:disabled {
-    border: none;
-    background: none;
-    color: black;
+  border: none;
+  background: none;
+  color: black;
 }
 
 input {
-    border: none;
-    background: none;
-    color: black;
+  border: none;
+  background: none;
+  color: black;
 }
 #imgif {
-    margin-top: 16px;
-    border-radius: 109px;
-    margin-left: 40%;
-    height: 168px;
+  margin-top: 16px;
+  border-radius: 109px;
+  margin-left: 40%;
+  height: 168px;
+}
+.button.is-primary {
+  background-color: #3850b7;
+  border-color: #363636;
+  color: #fff;
+ 
+}
+.button.is-primary.is-hovered, .button.is-primary:hover {
+    background-color:blue;
+    border-color:  #363636;
+    color: #fff;
 }
 
-    @media (max-width: 800px){
+@media (max-width: 800px) {
   #imgif {
-        margin-top: 16px;
-        border-radius: 109px;
-     
-    }   
+    margin-top: 16px;
+    border-radius: 109px;
+  }
 }
