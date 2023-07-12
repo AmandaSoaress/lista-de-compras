@@ -27,12 +27,13 @@ text-decoration: line-through;
 }
 
 input:disabled {
+    border: none;
     background: none;
     color: black;
 }
 
 input {
-    border-radius: 10px;
+    border: none;
     background: none;
     color: black;
 }
@@ -42,9 +43,7 @@ input {
     margin-left: 40%;
     height: 168px;
 }
-.column.is-offset-one-fifth, .column.is-offset-one-fifth-tablet{
-    margin-top: -51px;
-}
+
     @media (max-width: 800px){
   #imgif {
         margin-top: 16px;
