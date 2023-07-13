@@ -6,6 +6,7 @@
 ## Metodos ultlizados:
 <ul>
 <li>Comprar, clonar e editar objetos.</li>
+<li>Métodos para comparar e modificar valores.</li>
 <li>Manipulação de elementos no Dom.</li>
 <li>Verificaçãode valores no JavaScript.</li>
 </ul>
