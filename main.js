@@ -5,6 +5,17 @@ const form = document.getElementById('form-itens')
 const itensInput = document.getElementById('receber-item')
 const ulItens = document.getElementById('lista-de-itens')
 const ulItensComprados = document.getElementById('itens-comprados')
+const listaRecuperada = localStorage.getItem('listaDeItens')
+
+function atualizaLocalStorage() {
+    localStorage.setItem('listaDeItens', JSON.stringify(listaDeItens))
+}
+if(listaRecuperada){
+    listaDeItens = JSON.parse(listaRecuperada)
+    mostrarItem()
+}else{
+    listaDeItens = []
+}
 
 form.addEventListener('submit', function (evento) {
     evento.preventDefault()
@@ -85,12 +96,14 @@ ${index === Number (itemAEditar) ? '<button onclick="salvarEdicao()"><i class="f
         })
     })
 
+    atualizaLocalStorage()
+
 }
 
 function salvarEdicao() {
-const itemEditado = document.querySelector(`[data-value="${itemAEditar}"] input[type="text"]`)
+    const itemEditado = document.querySelector(`[data-value="${itemAEditar}"] input[type="text"]`)
     //console.log(itemEditado.value)
-    listaDeItens[itemAEditar].valor= itemEditado.value
+    listaDeItens[itemAEditar].valor = itemEditado.value
     console.log(listaDeItens)
     itemAEditar = -1
     mostrarItem()
