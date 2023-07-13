@@ -9,6 +9,7 @@
 <li>Métodos para comparar e modificar valores.</li>
 <li>Manipulação de elementos no Dom.</li>
 <li>Verificaçãode valores no JavaScript.</li>
+<li>Métodos para tratar dados e salvá-los no localStorage</li>
 </ul>
 
 <br>
