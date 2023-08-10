@@ -15,7 +15,7 @@
 <br>
 <br>
 
-![preview](assets/img/preview1.png)
+![preview](assets/img/preview1.png#vitrinedev)
 <br>
 <br>
 
